@@ -651,6 +651,12 @@ CONTENT
   text-decoration: none;
 }
 
+.nav__link--logo{
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
 
 .nav__center {
   position: absolute;
@@ -765,6 +771,11 @@ CONTENT
   border-bottom: 1px solid #ccc;
 }
 
+/*===============================
+
+ПРАВЫЙ БЛОК - ГЛАВНАЯ
+
+=================================*/
 
 .front{
 
@@ -844,7 +855,11 @@ CONTENT
 
 }
 
+/*===============================
 
+ПРАВЫЙ БЛОК - БЛОКИ
+
+=================================*/
 
 
 
@@ -1050,7 +1065,11 @@ border:none;
 
 
 
-/* ====== */
+/*===============================
+
+ПРАВЫЙ БЛОК - КОМАНДА
+
+=================================*/
 
 .crew-list{
   display: block;
@@ -1206,7 +1225,11 @@ border:none;
 
 
 
+/*===============================
 
+ПРАВЫЙ БЛОК - КОНТАКТЫ
+
+=================================*/
 
 .contact-block {
   float: left;
@@ -1266,7 +1289,11 @@ border:none;
 }
 
 
-/* SOCIAL */
+/*===============================
+
+ПРАВЫЙ БЛОК - СОЦИАЛЬНЫЙ БЛОК
+
+=================================*/
 
 .social {
   position: absolute;
@@ -1342,7 +1369,11 @@ border:none;
 
 
 
+/*===============================
 
+ПРАВЫЙ БЛОК - ПРИСОЕДИНИТЬСЯ (всплывающее)
+
+=================================*/
 
 .join-us{
   display: none;
@@ -1540,13 +1571,46 @@ border:none;
 }
 
 
+/*===============================
+
+СПЕЦ СТИЛИ
+
+=================================*/
 
 
+/*===============================
 
+РЕТИНА 2x
 
+=================================*/
 
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx){
+  
+  .nav__item--logo{
+  width: 200px;
+  background-image: url(../img/logo2x-white.png);
+  background-size: 200px auto;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  -webkit-transition: background-image .3s;
+  transition: background-image .3s;
+  
+}
 
-/* ======== 960 =========*/
+.nav__item--logo:hover{
+
+  background-color: #fff;
+  background-image: url(../img/logo2x-bl.png);
+  background-size: 200px auto;
+}
+  
+}
+
+/*===============================
+
+WIDTH 960px 
+
+=================================*/
 
 
 @media(max-width: 960px) {
@@ -1620,42 +1684,16 @@ border:none;
 
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx){
-  
-  .nav__item--logo{
-  width: 200px;
-  background-image: url(../img/logo2x-white.png);
-  background-size: 200px auto;
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
-  -webkit-transition: background-image .3s;
-  transition: background-image .3s;
-  
-}
-
-.nav__item--logo:hover{
-
-  background-color: #fff;
-  background-image: url(../img/logo2x-bl.png);
-  background-size: 200px auto;
-}
-  
-}
 
 
 
 
 
+/*===============================
 
-.nav__link--logo{
-  display: block;
-  width: 200px;
-  height: 200px;
-}
+WIDTH 768px 
 
-
-
-/* ============= 768 =======================*/
+=================================*/
 
 @media(max-width: 768px) {
 
@@ -1812,7 +1850,11 @@ border:none;
 }
 
 
-/*==== 480 =====*/
+/*===============================
+
+WIDTH 480px 
+
+=================================*/
 
 @media(max-width: 480px) {
   .content__title{
@@ -1877,6 +1919,12 @@ border:none;
   
 
 }
+
+/*===============================
+
+ЧАСТНЫЕ СТИЛИ
+
+=================================*/
 
 
 @media(max-height:400px) and @media(min-width: 768px){
