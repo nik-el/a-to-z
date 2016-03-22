@@ -874,6 +874,11 @@ CONTENT
   margin: 0 auto;
 }
 
+.row--image{
+  width: 80%;
+  margin: 0 auto;
+}
+
 .row__1-bgcorp{
   position: relative;
   width: 100%;
@@ -885,6 +890,7 @@ CONTENT
 
 .row__1--reviews {
   width: 80%;
+
 }
 
 
@@ -1053,11 +1059,14 @@ border:none;
 
 .row__image{
   display: block;
-  width: auto;
+
   max-width: 100%;
   
   margin: 0 auto;
   
+}
+
+.row__image--max{
 
 }
 
@@ -1951,4 +1960,11 @@ WIDTH 480px
   top: 0; left: 200px; bottom: 0; right: 0;
   }
   
+}
+
+@media(min-width: 1300px) {
+  .content{
+    width: 1000px;
+    margin: 0 auto;
+  }
 }
