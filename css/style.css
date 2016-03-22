@@ -1439,7 +1439,7 @@ border:none;
   right: 0;
   bottom: 0;
   margin: auto;
-  width: 60vw;
+  width: 70vw;
   height: auto;
   padding: 30px;
   background-color: #fff;
@@ -1823,7 +1823,8 @@ WIDTH 768px
   
   .map{
     width: 80%;
-    margin: 0 auto;
+    margin: 0px auto;
+    margin-top: 40px;
   }
   
   
