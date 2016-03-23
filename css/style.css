@@ -823,30 +823,26 @@ CONTENT
   padding: 0 20px;
 }
 
-.row__1 {
-  margin: 0 auto;
-  padding: 0 50px;
-}
+
 
 .row--image {
   width: 80%;
-  margin: 0 auto;
 }
 
-.row__1-bgcorp {
+.row--bgcorp {
   position: relative;
-  width: 100%;
+  width: 95%;
   min-height: 440px;
   background-image: url(../img/corp2x.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.row__1--reviews {
+.row--reviews {
   width: 80%;
 }
 
-.row__2 {
+.row--2 {
   display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
@@ -863,14 +859,14 @@ CONTENT
   padding-right: 2%;
 }
 
-.row__2-bg30 {
+.row--2-bg30 {
   color: #000;
   font-weight: 600;
   border-radius: 10px;
   min-height: 600px;
 }
 
-.row__3 {
+.row--3 {
   display: inline-block;
   vertical-align: top;
   margin-top: 30px;
@@ -880,18 +876,12 @@ CONTENT
   border-right: 0px solid #999;
 }
 
-.row__3--last {
-  border-right: 0px solid #999;
-}
 
-.row--center-att {
+.row--border {
   position: relative;
-  box-sizing: border-box;
-  float: left;
-  width: 100%;
+  width: 95%;
   margin-top: 10px;
   margin-bottom: 50px;
-  padding: 1% 5%;
   border: 2px solid #f0bb69;
   border-radius: 10px;
 }
@@ -990,13 +980,20 @@ CONTENT
 
 .row__list-item {
   font-size: 1.6rem;
-  line-height: 2.8rem;
+  line-height: 2.2rem;
+  padding: 2px 0px;
 }
 
 .row__image {
   display: block;
   max-width: 100%;
   margin: 0 auto;
+}
+
+.row__image--right{
+  padding-left: 20px;
+  float: right;
+  height: auto;
 }
 
 .row__image--max {}
@@ -1526,15 +1523,22 @@ WIDTH 960px
     width: 100%;
     height: auto;
   }
-  .row__2 {
+  .row--2 {
     width: 100%;
   }
-  .row__2-bg30 {
+  .row--2-bg30 {
     display: none;
   }
-  .row__1--reviews {
+  .row--reviews {
     width: 90%;
   }
+  
+  .row__image--right{
+  padding-left: 20px;
+  float: right;
+  height: auto;
+  width: 50%;
+}
 }
 
 
@@ -1624,7 +1628,7 @@ WIDTH 768px
   .nav__item {
     height: 14.3%;
   }
-  .row__3 {
+  .row--3 {
     display: block;
     border-right: 0px;
     width: 100%
@@ -1639,6 +1643,8 @@ WIDTH 768px
   .front__text {
     width: 80%;
   }
+  
+
   .nav__item--logo {
     display: none;
   }
@@ -1702,9 +1708,8 @@ WIDTH 480px
   .row__text--bold-white {
     display: none;
   }
-  .row__3 {
+  .row--3 {
     display: block;
-    border-right: 0px;
     width: 100%
   }
   .row__text--left {
