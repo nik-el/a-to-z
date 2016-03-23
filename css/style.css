@@ -855,8 +855,14 @@ CONTENT
   background-color: rgba(255, 255, 255, .8);
 }
 
-.row__2:nth-child(odd) {
-  padding-right: 2%;
+.row--2:nth-child(odd) {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.row--2:nth-child(even) {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .row--2-bg30 {
