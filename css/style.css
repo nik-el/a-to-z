@@ -1767,7 +1767,5 @@ WIDTH 480px
   .content {
     width: 1000px;
     margin: 0 auto;
-    -webkit-transform: rotate(2);
-    transform: rotate(2);
   }
 }
