@@ -1071,6 +1071,7 @@ CONTENT
 
 .crew-block__id {
   width: 90%;
+  max-width: 700px;
   height: auto;
   margin: 0 auto;
   margin-bottom: 50px;
@@ -1090,8 +1091,7 @@ CONTENT
 
 .crew-block__img--wide {
   display: block;
-  width: 80%;
-  max-width: 950px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
